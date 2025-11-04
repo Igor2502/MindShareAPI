@@ -1,8 +1,8 @@
+import { User } from "@prisma/client";
 import { prismaClient } from "../../prisma/prisma";
 import { RegisterInput } from "../dtos/input/auth.input";
 import { hashPassword } from "../utils/hash";
 import { signJwt } from "../utils/jwt";
-import { User } from "@prisma/client";
 
 export class AuthService {
   async register(data: RegisterInput) {
