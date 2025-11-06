@@ -8,6 +8,7 @@ import { UserResolver } from "./resolvers/user.resolver";
 import { buildContext } from "./graphql/context";
 import { IdeaResolver } from "./resolvers/idea.resolver";
 import { CommentResolver } from "./resolvers/comment.resolver";
+import { VoteResolver } from "./resolvers/vote.resolver";
 
 
 async function bootstrap() {
@@ -18,7 +19,8 @@ async function bootstrap() {
       AuthResolver,
       UserResolver,
       IdeaResolver,
-      CommentResolver
+      CommentResolver,
+      VoteResolver
     ],
     validate: false,
     emitSchemaFile: './schema.graphql',
