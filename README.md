@@ -43,7 +43,6 @@ Este projeto foi desenvolvido com foco na implementação de um esquema GraphQL 
 #### 1. Clone o repositório e acesse o diretório do projeto:
 ```bash
 git clone https://github.com/Igor2502/MindShareAPI.git
-cd mindshareapi
 ```
 
 #### 2. Instale as dependências:
